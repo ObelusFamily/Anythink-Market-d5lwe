@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+After installing docker on your machine,
+Please run docker compose up and wait for all services to come up.
+Now, go to  ([http://localhost:3000/api/ping](http://localhost:3000/api/ping) on your browser and make sure you get the response:
+`{"msg":"Pong! Seems like Everythink is working, great job!"}`
+Then, go to ([http://localhost:3001/register](http://localhost:3001/register) and `create a new user`.
+You're all set!
